@@ -39,17 +39,17 @@ void print_binary(int i) {
     }
 }
 
-int main(int argc, char * argv[]){
-    int i ;
-    int N = atoi(argv[1]) ;
-    for (i=0;i<N;i++) {
-        printf("%d\t", i) ;
-        print_binary(i) ;
-        printf("\t0x%d", i) ;
-        printf("\n") ;
-    }
-    return 0 ;
-}
+//int main(int argc, char * argv[]){
+//    int i ;
+//    int N = atoi(argv[1]) ;
+//    for (i=0;i<N;i++) {
+//        printf("%d\t", i) ;
+//        print_binary(i) ;
+//        printf("\t0x%d", i) ;
+//        printf("\n") ;
+//    }
+//    return 0 ;
+//}
 
 
 

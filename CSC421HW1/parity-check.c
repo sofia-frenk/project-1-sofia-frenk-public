@@ -37,13 +37,13 @@ char parity_check(char c, int direction) {
     return c;
 }
 
-int main(int argc, char * argv[]) {
-    unsigned char uc = (unsigned char) atoi(argv[1]) ;
-    unsigned char uc_chk ;
-    uc_chk = parity_check(uc,0) ;
-    printf("0x%02x: 0x%02x\n", (int) uc, (int) uc_chk ) ;
-    return 0 ;
-}
+//int main(int argc, char * argv[]) {
+//    unsigned char uc = (unsigned char) atoi(argv[1]) ;
+//    unsigned char uc_chk ;
+//    uc_chk = parity_check(uc,0) ;
+//    printf("0x%02x: 0x%02x\n", (int) uc, (int) uc_chk ) ;
+//    return 0 ;
+//}
 
 /*
 this should be the output
